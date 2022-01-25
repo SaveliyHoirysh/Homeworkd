@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+body, html{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    padding: 0;
+    
+}
+.razmer{
+    width: 500px;
+    height: 250px;
+}
+.block1{
+    background-color: blanchedalmond;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    
+}
+.block2{
+    background-color: cornflowerblue;
+   
+}
+.block3{
+    background-color: darkorchid;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.tigr{
+    height: 200px;
+    width: 200px;
+    
+  
+}
+.tigr:hover{
+    transform: rotateZ(360deg);
+    transition: all 3s;
+}
+.big{
+    height: 100px;
+    width: 100px;
+    background-color: burlywood;
+}
+.big:hover{
+    height: 200px;
+    width: 200px;
+    transition: all 2s;
+}
+.circle{
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    display: block;
+   
+    
+}
+.circle:hover{
+background-color: green;
+border-radius: 50%;
+transition: all 2s;
+}
+
+
